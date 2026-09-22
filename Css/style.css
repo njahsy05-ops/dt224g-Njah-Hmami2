@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    padding: 25px 20px;
+}
+
+.intro,
+.aktiviteter,
+.planera {
+    padding: 30px 20px;
+}
+
+.kort {
+    display: grid;
+    gap: 25px;
+}
+
+.kort img {
+    width: 100%;
+    display: block;
+}
+
+footer {
+    padding: 30px 20px;
